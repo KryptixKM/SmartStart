@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="820.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="smartstart.ui.AjouterParticipationController">
+   <children>
+      <TextField fx:id="titretxt" layoutX="193.0" layoutY="35.0" />
+      <Label layoutX="80.0" layoutY="39.0" text="Titre" />
+      <TextArea fx:id="desctxt" layoutX="80.0" layoutY="112.0" prefHeight="177.0" prefWidth="661.0" />
+      <Label layoutX="80.0" layoutY="77.0" text="Description" />
+      <Label layoutX="301.0" layoutY="446.0" text="Livrable" />
+      <Button fx:id="livbtn" layoutX="384.0" layoutY="442.0" mnemonicParsing="false" text="Valider" />
+   </children>
+</AnchorPane>

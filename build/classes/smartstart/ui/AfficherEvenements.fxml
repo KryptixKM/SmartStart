@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="820.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="smartstart.ui.AfficherEvenementsController">
+    <children>
+        <TableView fx:id="eventtable" layoutX="62.0" layoutY="76.0" prefHeight="280.0" prefWidth="703.0">
+            <columns>
+                <TableColumn fx:id="titrecol" prefWidth="75.0" text="Titre" />
+                <TableColumn fx:id="secteurcol" prefWidth="75.0" text="Secteur" />
+                <TableColumn fx:id="desccol" prefWidth="193.0" text="Description" />
+                <TableColumn fx:id="budgetcol" prefWidth="66.0" text="Budget" />
+                <TableColumn fx:id="datedebutcol" prefWidth="100.0" text="Date de Debut" />
+                <TableColumn fx:id="dureecol" prefWidth="64.0" text="Durée" />
+            <TableColumn fx:id="modifcol" prefWidth="64.0" text="Modifier" />
+            <TableColumn fx:id="suppcol" prefWidth="64.0" text="Supprimer" />
+            </columns>
+        </TableView>
+        <Label layoutX="62.0" layoutY="14.0" prefHeight="42.0" prefWidth="195.0" text="Mes Evenements(Job Owner)" />
+    </children>
+</AnchorPane>

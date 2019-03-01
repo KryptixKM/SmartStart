@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="smartstart.ui.AjouterEvenementController">
+   <children>
+      <Label layoutX="70.0" layoutY="29.0" text="Titre" />
+      <Label layoutX="69.0" layoutY="75.0" text="Secteur" />
+      <Label layoutX="379.0" layoutY="29.0" text="Description" />
+      <Label layoutX="68.0" layoutY="223.0" text="Budget" />
+      <Label layoutX="68.0" layoutY="275.0" text="Date de Debut" />
+      <Label layoutX="394.0" layoutY="275.0" text="Durée" />
+      <TextField fx:id="titretxt" layoutX="183.0" layoutY="25.0" />
+      <TextField fx:id="budgettxt" layoutX="183.0" layoutY="219.0" />
+      <TextArea fx:id="desctxt" layoutX="379.0" layoutY="64.0" prefHeight="177.0" prefWidth="213.0" />
+      <ComboBox fx:id="secteurcmb" layoutX="183.0" layoutY="69.0" prefWidth="150.0" />
+      <DatePicker fx:id="datedebutpicker" layoutX="171.0" layoutY="271.0" />
+      <TextField fx:id="dureetxt" layoutX="440.0" layoutY="271.0" />
+      <Button fx:id="btn" layoutX="502.0" layoutY="345.0" mnemonicParsing="false" text="Valider" />
+   </children>
+</AnchorPane>

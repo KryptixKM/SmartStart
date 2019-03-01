@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="820.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="smartstart.ui.AfficherEvenementController">
+   <children>
+      <Label layoutX="52.0" layoutY="27.0" text="Details Evenement : " />
+      <Label layoutX="513.0" layoutY="148.0" text="Details Job Owner : " />
+      <Label layoutX="52.0" layoutY="71.0" text="Titre" />
+      <Label layoutX="52.0" layoutY="103.0" text="Secteur" />
+      <Label layoutX="52.0" layoutY="141.0" text="Description" />
+      <Label layoutX="52.0" layoutY="302.0" text="Budget" />
+      <Label layoutX="52.0" layoutY="337.0" text="Durée" />
+      <Label layoutX="52.0" layoutY="377.0" text="Date de Debut" />
+      <Label layoutX="513.0" layoutY="198.0" text="Nom" />
+      <Label layoutX="514.0" layoutY="264.0" text="Email" />
+      <Label layoutX="514.0" layoutY="340.0" text="Telephone" />
+      <Label layoutX="514.0" layoutY="300.0" text="Addresse" />
+      <Label layoutX="514.0" layoutY="232.0" text="Prenom" />
+      <Button fx:id="btn" layoutX="693.0" layoutY="431.0" mnemonicParsing="false" text="Participer" />
+      <Label fx:id="titrelbl" layoutX="145.0" layoutY="69.0" prefHeight="17.0" prefWidth="324.0" />
+      <Label fx:id="secteurlbl" layoutX="145.0" layoutY="103.0" prefHeight="17.0" prefWidth="324.0" />
+      <Label fx:id="desclbl" layoutX="145.0" layoutY="141.0" prefHeight="148.0" prefWidth="324.0" />
+      <Label fx:id="budgetlbl" layoutX="145.0" layoutY="302.0" prefHeight="17.0" prefWidth="324.0" />
+      <Label fx:id="dureelbl" layoutX="145.0" layoutY="337.0" prefHeight="17.0" prefWidth="324.0" />
+      <Label fx:id="datedebutlbl" layoutX="145.0" layoutY="377.0" prefHeight="17.0" prefWidth="324.0" />
+      <Label fx:id="nomlbl" layoutX="579.0" layoutY="198.0" prefHeight="17.0" prefWidth="227.0" />
+      <Label fx:id="prenomlbl" layoutX="579.0" layoutY="232.0" prefHeight="17.0" prefWidth="227.0" />
+      <Label fx:id="emaillbl" layoutX="579.0" layoutY="264.0" prefHeight="17.0" prefWidth="227.0" />
+      <Label fx:id="addresslbl" layoutX="579.0" layoutY="300.0" prefHeight="17.0" prefWidth="227.0" />
+      <Label fx:id="tellbl" layoutX="579.0" layoutY="340.0" prefHeight="17.0" prefWidth="227.0" />
+   </children>
+</AnchorPane>
